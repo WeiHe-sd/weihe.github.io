@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<title>Wei's Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<!---->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    function showMore() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+<style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif
+    }
+</style>
+
+<body class="w3-light-grey">
+
+    <!--the address of the main image-->
+    
+    <div style="background-color: #343a40;display:flex;flex-direction: row;justify-content: center;">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Home Page</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#language">Language</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publish">Publish</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+  
+
+
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+        <div class="container-sm" style="max-width:1400px;">
+            <!-- The Grid -->
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-sm-4">
+                    <div class="w3-white w3-text-grey w3-card-4">
+                        <div class="w3-display-container">
+                            <!-- image address path -->
+                            <div class="col" style="text-align: right;"><img
+                                    src="https://github.com/Meng-20/WeiHe/blob/main/images/2.jpg?raw=true"
+                                    style="width:60%;text-align: right;padding:10px 10px;margin:10px 10px;"
+                                    alt="Avatar"></div>
+                            <div class="w3-display-bottomleft w3-container w3-text-black">
+                                <h2>Wei He</h2>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Phd Student
+                            </p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>SD USA</p>
+                            <p><i
+                                    class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Wei.He@sdstate.edu
+                            </p>
+                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+1-6055925498</p>
+                            <hr>
+
+                            <p class="w3-large"><a name="skill"></a><b><i
+                                        class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skill</b>
+                            </p>
+                            <p style="font-size:1.3rem;">
+                                <span class="badge badge-info">XRD</span>
+                                <span class="badge badge-info">FTIR</span>
+                                <span class="badge badge-info">Raman</span>
+                                <span class="badge badge-info">AFM</span>
+                                <span class="badge badge-info">SEM</span>
+                                <span class="badge badge-info">TEM</span>
+                            </p>
+                            <br>
+                            <!-- <p class="w3-large"><b><i class="w3-margin-right w3-text-teal fa fa-diamond"></i>UI软件使用技能</b>
+                            </p>
+                            <p style="font-size:1.3rem;">
+                                <span class="badge badge-success">Sketch</span>
+                                <span class="badge badge-success">Photoshop</span>
+                                <span class="badge badge-success">Adobe Illustrator</span>
+                                <br> -->
+
+                            <p class="w3-large w3-text-theme"> <a name="language"></a><b><i
+                                        class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Language</b></p>
+                            <p>Cinese</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+                            </div>
+
+                            <p>English</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+                            </div>
+                            <div class="col" style="text-align: right;"><img
+                                    src="https://github.com/Meng-20/WeiHe/blob/main/images/1.png?raw=true"
+                                    style="width:100%;text-align: right;padding:10px 10px;margin:10px 10px;"
+                                    alt="Avatar"></div>
+                            <br>
+                        </div>
+                    </div><br>
+                    <!-- end of left -->
+                </div>
+
+                <!-- right column -->
+                <div class="col-sm-8">
+
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><a name="education"></a><i
+                                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Ph.D. in Electric Engineering / South Dakota State University</b>
+                            </h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan. 2019 -
+                                <span class="w3-tag w3-teal w3-round">Present</span></h6>
+                            <p>High-performance anodes for sodium-ion batteries</p>
+                            <p>Si and Ge based materials as a high-performance anode for lithium-ion batteries </p>
+                            <p>Catalytic performance of chalcogenide semiconductor materials and TiO2 Nanotube Arrays
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Master of Science in Materials Physics and Chemistry / Chinese
+                                    Academy of Sciences</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep. 2013 –
+                                Jun. 2016
+                            </h6>
+                            <p>High-performance anodes for sodium-ion batteries</p>
+                            <p>Si and Ge based materials as a high-performance anode for lithium-ion batteries </p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Bachelor of Science in Materials Science and Engineering /
+                                    Zhejiang University</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug. 2009 –
+                                Jul. 2013
+                            </h6>
+                            <p>Undergraduate student
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><a name="publish"></a><i
+                                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Journal
+                            Publications (First Author)</h2>
+
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>High-Mass-Loading Sn-based Anode Boosted by Pseudocapacitance for
+                                    Long-life Sodium-Ion Batteries. </b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Chemical
+                                Engineering 2021.1
+                            </h6>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1385894721002369">Interest?
+                                Click here</a>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Achieving High Pseudocapacitance Anode by An In Situ
+                                    Nanocrystallization Strategy for Ultrastable Sodium-Ion Batteries</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>ACS Applied
+                                Materials & Interfaces 2021.3
+                            </h6>
+                            <a href="https://pubs.acs.org/doi/10.1021/acsami.1c04231">Interest? Click here</a>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>A facile in situ synthesis of nanocrystal-FeSi-embedded Si/SiOx
+                                    anode for long-cycle-life lithium-ion batteries</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Energy Storage
+                                Materials 2017.8
+                            </h6>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S2405829717300831">Interest?
+                                Click here</a>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Scalable synthesis of Si/C anode enhanced by FeSix nanoparticles
+                                    from low-cost ferrosilicon for lithium-ion batteries</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Journal of
+                                Power Sources 2017.4
+                            </h6>
+                            <a
+                                href="https://www.infona.pl/resource/bwmeta1.element.elsevier-222f27f1-ee2a-3fe6-bd88-5b4f2787f8aa">Interest?
+                                Click here</a>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Scalable fabrication of micro-sized bulk porous Si from Fe-Si
+                                    alloy as a high-performance anode for lithium-ion batteries</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Journal of
+                                Materials Chemistry A 2015.8
+                            </h6>
+                            <a href="https://pubs.rsc.org/en/content/articlelanding/2015/ta/c5ta04857e">Interest? Click
+                                here</a>
+                            <hr>
+                        </div>
+
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Three-dimensional interconnected network GeOx/multi-walled CNT
+                                    composite spheres as high-performance anodes for lithium-ion batteries</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Journal of
+                                Materials Chemistry A 2015.3
+                            </h6>
+                            <a href="https://pubs.rsc.org/en/content/articlelanding/2015/ta/c5ta04456a">Interest? Click
+                                here</a>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <!-- end of right -->
+                </div>
+
+                <!-- End Grid -->
+            </div>
+
+            <!-- end of home page -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-teal w3-center w3-margin-top" style="font-size:1.2rem;color:#ffffff;">
+            <p>Welcome to visit my Linkedin and Google Scholar</p>
+            <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal" style="color:#ffffff;"></i>
+            <i><a href="https://www.linkedin.com/in/wei-he-27aa121a3/" target="_blank"
+                style="color:#ffffff;">Linkedin</a></i>
+                <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>
+            <i><a href="https://scholar.google.com/citations?hl=en&tzom=300&user=yLAStLYAAAAJ" target="_blank"
+                style="color:#ffffff;">Google Scholar</a></i>
+
+            <!-- end of footer -->
+        </footer>
+</body>
+
+
+
+
+</html>
